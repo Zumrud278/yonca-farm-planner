@@ -1,0 +1,247 @@
+[
+    {
+        "intent": "irrigation",
+        "az_name": "Suvarma",
+        "keywords": [
+            "suvarma",
+            "su",
+            "suvarmaq",
+            "damcı",
+            "şırıltı",
+            "nəmlik",
+            "quraqlıq",
+            "sulanmaq"
+        ],
+        "response_template_az": "Sahənizin ({field_name}) suvarma cədvəli: {irrigation_schedule}. Torpaq nəmliyi: {soil_moisture}%. Növbəti suvarma: {next_irrigation_date}."
+    },
+    {
+        "intent": "fertilization",
+        "az_name": "Gübrələmə",
+        "keywords": [
+            "gübrə",
+            "gübrələmə",
+            "azot",
+            "fosfor",
+            "kalium",
+            "npk",
+            "üzvi",
+            "mineral",
+            "kompost",
+            "torpaq qidalanması"
+        ],
+        "response_template_az": "{crop_name} bitkisi üçün tövsiyə olunan gübrə: {fertilizer_type}. Norma: {fertilizer_dose} kq/ha. Müddət: {fertilization_period}."
+    },
+    {
+        "intent": "pest_alert",
+        "az_name": "Zərərverici Xəbərdarlığı",
+        "keywords": [
+            "zərərverici",
+            "böcək",
+            "xəstəlik",
+            "gəmirici",
+            "mənənə",
+            "kəpənək",
+            "həşərat",
+            "ziyan",
+            "əkin zərərvericisi",
+            "bit"
+        ],
+        "response_template_az": "⚠️ Xəbərdarlıq! {pest_name} riski aşkarlandı. Təsir oluna biləcək sahə: {affected_area}. Tövsiyə: {pest_recommendation}. Dərhal müraciət edin!"
+    },
+    {
+        "intent": "harvest_timing",
+        "az_name": "Məhsul Yığım Vaxtı",
+        "keywords": [
+            "yığım",
+            "biçin",
+            "məhsul",
+            "hasat",
+            "yetişmə",
+            "bəsit",
+            "dərmə",
+            "toplama",
+            "nə vaxt yığmaq",
+            "yetişib"
+        ],
+        "response_template_az": "{crop_name} bitkisinin yığım vaxtı: {harvest_date}. Yetişmə əlaməti: {maturity_sign}. Gözlənilən məhsuldarlıq: {expected_yield} ton/ha."
+    },
+    {
+        "intent": "subsidy_deadline",
+        "az_name": "Subsidiya Son Tarixi",
+        "keywords": [
+            "subsidiya",
+            "müavinət",
+            "dövlət dəstəyi",
+            "qrant",
+            "son tarix",
+            "müraciət",
+            "sənəd",
+            "kənd təsərrüfatı dəstəyi",
+            "kompensasiya"
+        ],
+        "response_template_az": "📋 {subsidy_name} subsidiyası üçün son müraciət tarixi: {deadline}. Tələb olunan sənədlər: {required_docs}. Müraciət üçün: {application_link}."
+    },
+    {
+        "intent": "weather_advice",
+        "az_name": "Hava Proqnozu Məsləhəti",
+        "keywords": [
+            "hava",
+            "yağış",
+            "külək",
+            "temperatur",
+            "don",
+            "dolu",
+            "istilik",
+            "soyuq",
+            "proqnoz",
+            "iqlim"
+        ],
+        "response_template_az": "🌤️ {location} üçün hava proqnozu: {weather_forecast}. Kənd təsərrüfatı məsləhəti: {weather_advice}. Ehtiyatlı olun: {weather_warning}."
+    },
+    {
+        "intent": "livestock_feeding",
+        "az_name": "Mal-Qara Qidalanması",
+        "keywords": [
+            "heyvan",
+            "mal-qara",
+            "inək",
+            "qoyun",
+            "yem",
+            "qidalanma",
+            "otlaq",
+            "ot",
+            "saman",
+            "yemləmə"
+        ],
+        "response_template_az": "{livestock_type} üçün gündəlik yem norması: {feed_amount} kq. Tövsiyə olunan yem növü: {feed_type}. Suvarma rejimi: {water_schedule}."
+    },
+    {
+        "intent": "disease_risk",
+        "az_name": "Xəstəlik Riski",
+        "keywords": [
+            "xəstəlik",
+            "virus",
+            "göbələk",
+            "bakteriya",
+            "solma",
+            "sarılma",
+            "çürümə",
+            "pas",
+            "yanıq",
+            "infeksiya"
+        ],
+        "response_template_az": "🔴 {disease_name} xəstəliyi riski: {risk_level}. Əsas simptomlar: {symptoms}. Profilaktik tədbirlər: {prevention_measures}."
+    },
+    {
+        "intent": "weekly_schedule",
+        "az_name": "Həftəlik Cədvəl",
+        "keywords": [
+            "cədvəl",
+            "plan",
+            "həftəlik",
+            "iş siyahısı",
+            "bu həftə",
+            "tapşırıqlar",
+            "planlaşdırma",
+            "növbəti addımlar"
+        ],
+        "response_template_az": "📅 {farm_name} üçün həftəlik iş planı ({week_range}):\n{monday}: {monday_tasks}\n{tuesday}: {tuesday_tasks}\n{wednesday}: {wednesday_tasks}\n{thursday}: {thursday_tasks}\n{friday}: {friday_tasks}"
+    },
+    {
+        "intent": "general_help",
+        "az_name": "Ümumi Kömək",
+        "keywords": [
+            "kömək",
+            "məlumat",
+            "nə edim",
+            "necə",
+            "sual",
+            "başlamaq",
+            "istiqamət",
+            "yardım",
+            "öyrən"
+        ],
+        "response_template_az": "Salam! Mən Yonca Ferma Köməkçisiyəm. Sizə aşağıdakı mövzularda kömək edə bilərəm: suvarma, gübrələmə, zərərverici, məhsul yığımı, subsidiyalar, hava məsləhəti, mal-qara qidalanması, xəstəlik riski və həftəlik planlaşdırma."
+    },
+    {
+        "intent": "soil_analysis",
+        "az_name": "Torpaq Analizi",
+        "keywords": [
+            "torpaq",
+            "analiz",
+            "ph",
+            "turşuluq",
+            "qələvilik",
+            "torpaq növü",
+            "münbitlik",
+            "humus",
+            "qum",
+            "gil"
+        ],
+        "response_template_az": "{field_name} sahəsinin torpaq analizi: pH={soil_ph}, Humus={humus_percent}%, Azot={nitrogen_level} mg/kq. Tövsiyə: {soil_recommendation}."
+    },
+    {
+        "intent": "market_price",
+        "az_name": "Bazar Qiyməti",
+        "keywords": [
+            "qiymət",
+            "bazar",
+            "satış",
+            "gəlir",
+            "mənfəət",
+            "ixrac",
+            "alqı-satqı",
+            "ticarət",
+            "bazarlıq"
+        ],
+        "response_template_az": "{crop_name} üçün cari bazar qiyməti: {market_price} AZN/ton. Ən yaxın bazar: {nearest_market}. Ötən həftəyə nisbətən dəyişim: {price_change}."
+    },
+    {
+        "intent": "equipment_maintenance",
+        "az_name": "Avadanlıq Texniki Xidməti",
+        "keywords": [
+            "texnika",
+            "traktor",
+            "nasaz",
+            "təmir",
+            "texniki xidmət",
+            "motor",
+            "hissə",
+            "avadanlıq",
+            "texniki",
+            "xidmət"
+        ],
+        "response_template_az": "{equipment_name} üçün texniki xidmət cədvəli: Növbəti texniki baxış: {next_service_date}. Xəbərdarlıqlar: {maintenance_warnings}. Servis mərkəzi: {service_center}."
+    },
+    {
+        "intent": "seed_selection",
+        "az_name": "Toxum Seçimi",
+        "keywords": [
+            "toxum",
+            "sort",
+            "növ",
+            "əkin materialı",
+            "hibrid",
+            "yerli sort",
+            "sertifikat",
+            "toxum növü",
+            "əkmək"
+        ],
+        "response_template_az": "{crop_name} üçün tövsiyə olunan sortlar: {recommended_varieties}. Optimal əkin müddəti: {planting_period}. Toxum norması: {seed_rate} kq/ha."
+    },
+    {
+        "intent": "crop_rotation",
+        "az_name": "Növbəli Əkin",
+        "keywords": [
+            "növbəli əkin",
+            "rotasiya",
+            "torpaq dincəlməsi",
+            "sələf",
+            "əvəzləmə",
+            "həmsərhəd",
+            "növbə",
+            "dinclik"
+        ],
+        "response_template_az": "{field_name} sahəsi üçün növbəli əkin planı: Bu il: {current_crop}. Növbəti il: {next_crop}. Tövsiyənin səbəbi: {rotation_reason}."
+    }
+]
