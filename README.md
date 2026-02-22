@@ -738,7 +738,3 @@ With sufficient per-farm data, the rule layer is progressively replaced by farm-
 | Sensors deployed | Manual `soil_moisture` | IoT sensor time-series feed |
 | 500+ feedback samples | Synthetic training labels | Real agronomic outcome labels |
 | Model retrained | Synthetic scikit-learn model | Outcome-trained ONNX model |
-
----
-
-*Documentation generated for Yonca AI Farm Planner Prototype v1.0.2. For questions, contact the Yonca engineering team.*
