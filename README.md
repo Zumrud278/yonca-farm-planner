@@ -2,6 +2,9 @@
 
 **Version:** 1.0.2 | **Status:** Prototype | **Base URL:** `https://api.yonca.az/v1`
 
+<img width="2432" height="1398" alt="image" src="https://github.com/user-attachments/assets/4c4d360d-2ef8-4cb1-b99e-dce10468b8d3" />
+
+
 ---
 
 ## 1. Executive Summary
